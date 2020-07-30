@@ -15,7 +15,8 @@ dict_backbone = {
         "ptaa": "N(c1ccccc1)(c2ccccc2)c3ccccc3",
         "pbttt": "c2c(c1sccc1)sc4c2sc(c3sccc3)c4",
         "carbozole": "c1ccc3c(c1)c2ccccc2N3",
-        "f8t2": "c1cccc2c1sc3c2cccc3c5ccc(c4sccc4)s5"
+        "f8t2": "c1cccc2c1sc3c2cccc3c5ccc(c4sccc4)s5",
+        "itic": "C6c4cc3c2sc1ccsc1c2Cc3cc4c7sc5ccsc5c67"
         }
 
 dict_compound = {
