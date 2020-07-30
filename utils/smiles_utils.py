@@ -1,4 +1,4 @@
-import mbuild
+import mbuild as mb
 import deepsmiles
 
 def convert_smiles(smiles=False, deep=False):
