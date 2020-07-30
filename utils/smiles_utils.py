@@ -19,7 +19,7 @@ def convert_smiles(smiles=False, deep=False):
         smiles_string = converter.decode(deep)
         return smiles_string
 
-def viz(smiles_string, deep=True, energy_min = False):
+def viz(smiles_string, deep=True, energy_min=False):
     '''
     Uses mbuild to visualize a given smiles string.
     Accepts either smiles string or Deepsmiles string.
@@ -28,7 +28,6 @@ def viz(smiles_string, deep=True, energy_min = False):
     '''
     if deep:
         smiles_string = convert_smiles(deep = smiles_string)
-        #print("SMILES: {}".format(smiles_string))
     comp = mb.load(smiles_string, smiles = True)
     if energy_min:
         comp.energy_minimize(algorithm='md', steps=100)
