@@ -1,0 +1,1 @@
+{"name": "thiophene", "subclass": "backbone", "smiles": "c1csc2c1scc2", "deep_smiles": "ccscc5scc5", "bonding": [{"index": 0, "type": "branch", "num_bonds": 1}, {"index": 1, "type": "poly", "num_bonds": 1}, {"index": 7, "type": "poly", "num_bonds": 1}, {"index": -1, "type": "branch", "num_bonds": 1}], "template": "c{}c{}scc5sc{}c5{}", "full name": "Not Provided"}
