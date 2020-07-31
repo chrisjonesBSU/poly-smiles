@@ -3,6 +3,13 @@ import numpy as np
 
 
 dict_branches = {
+        "hexane": "CCCCCC",
+        "pentane": "CCCCC",
+        "hexanol_ethane": "OCC(CC)CCC",
+        "acetamide": "CCCC(=O)N",
+        "thiophene_benzene": "CC(c1ccccc1)(c1sccc1)",
+        "anethole": "CC=C(c1ccc(OC)cc1)",
+        "methanethiosulfonate": "CSS(C)(=O)=O"
         }
 
 dict_groups = {
