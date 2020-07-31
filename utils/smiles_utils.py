@@ -32,3 +32,10 @@ def viz(smiles_string, deep=True, energy_min=False):
     if energy_min:
         comp.energy_minimize(algorithm='md', steps=100)
     comp.visualize().show()
+
+
+def read_comp(fpath):
+    with open(fpath) as jf:
+        d = json.load(jf)
+        for key in d:
+            print('{}: {}'.format(key, d[key]))
