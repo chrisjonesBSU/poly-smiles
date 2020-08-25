@@ -1,5 +1,9 @@
-import mbuild as mb
+import json
+import os
 import deepsmiles
+import mbuild as mb
+
+
 
 def convert_smiles(smiles=False, deep=False):
     '''
@@ -35,7 +39,7 @@ def viz(smiles_string, deep=True, energy_min=False):
 
 
 def read_comp(fpath):
-    with open(fpath) as jf:
-        d = json.load(jf)
-        for key in d:
-            print('{}: {}'.format(key, d[key]))
+    f = open(os.path.join('typed-components', fpath))
+    data = json.load(f)
+    f.close()
+    return data
